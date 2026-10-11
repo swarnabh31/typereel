@@ -1,0 +1,81 @@
+{
+  "voice": {
+    "tone": [
+      "punchy",
+      "direct",
+      "confident"
+    ],
+    "person": "second person, imperative where natural",
+    "banned": [
+      "in conclusion",
+      "delve",
+      "tapestry"
+    ],
+    "style_rules": [
+      "Hook in line 1",
+      "Land the last line",
+      "Concrete beats abstract"
+    ],
+    "examples": [
+      "Nobody is coming to save you.",
+      "Small reps. Every day."
+    ],
+    "max_caption_words": 8
+  },
+  "visual": {
+    "palette": {
+      "bg": [
+        "#1A0634",
+        "#541078"
+      ],
+      "bg2": [
+        "#0E0420",
+        "#8224B4"
+      ],
+      "accent": "#F078FF",
+      "text": "#FAF0FF"
+    },
+    "background": "gradient",
+    "glow": 0.5,
+    "card": {
+      "style": "bare",
+      "radius": 24,
+      "glow": 0.5,
+      "chrome": "none"
+    },
+    "caption": {
+      "style": "glass",
+      "opacity": 150,
+      "bg": "#0E0420",
+      "size": 1.2,
+      "position": "center"
+    },
+    "art_style": "neon ultraviolet gradient, bold, high contrast, cinematic",
+    "fonts": {
+      "heading": "Inter",
+      "body": "Inter",
+      "numerals": "Inter"
+    }
+  },
+  "motion": {
+    "camera": [
+      "slow_zoom",
+      "parallax"
+    ],
+    "cursor": false,
+    "spotlight": false,
+    "transition": "slide",
+    "transition_sec": 0.3,
+    "pace": "snappy"
+  },
+  "audio": {
+    "music": "minimal-pulse",
+    "bpm": 118,
+    "build": true,
+    "music_volume": 0.6,
+    "voiceover": false
+  },
+  "id": "bold-social",
+  "name": "Bold social",
+  "description": "High-contrast, big captions, fast. For Reels/Shorts/TikTok quotes, facts and hot takes."
+}

@@ -1,0 +1,5 @@
+# Core (everything the app needs to plan, render and encode)
+Pillow>=10.0
+numpy>=1.24
+streamlit>=1.50
+pandas>=2.0

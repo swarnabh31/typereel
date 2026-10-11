@@ -1,0 +1,20 @@
+# Install only what you want. TypeReel detects each of these at runtime and degrades gracefully.
+
+# --- Voice-over (local TTS). Best quality first; any ONE is enough.
+kokoro>=0.9
+soundfile
+# piper-tts            # alternative: also download a voice .onnx into ./voices/
+# pyttsx3              # lowest quality, uses the OS voices (works offline everywhere)
+
+# --- ClipMiner (speech-to-text). Or install whisper.cpp + a ggml model instead.
+faster-whisper
+
+# --- AI backdrops (Backdrop = "ai" in a brand kit). Needs a GPU for sensible speed.
+# pip install torch --index-url https://download.pytorch.org/whl/cu121
+diffusers>=0.35
+transformers
+accelerate
+bitsandbytes           # optional: 8/4-bit quantization to fit smaller GPUs
+
+# --- Dev
+pytest

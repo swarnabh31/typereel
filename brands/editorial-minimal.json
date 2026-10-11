@@ -1,0 +1,85 @@
+{
+  "voice": {
+    "tone": [
+      "thoughtful",
+      "precise",
+      "understated"
+    ],
+    "person": "plain, present tense",
+    "banned": [
+      "amazing",
+      "incredible",
+      "revolutionary",
+      "!"
+    ],
+    "style_rules": [
+      "Short declarative sentences",
+      "No jargon",
+      "Let one idea breathe per line"
+    ],
+    "examples": [
+      "Less, but better.",
+      "The work speaks first."
+    ],
+    "max_caption_words": 7
+  },
+  "visual": {
+    "palette": {
+      "bg": [
+        "#F6F2E8",
+        "#E2DAC8"
+      ],
+      "bg2": [
+        "#FAF7F0",
+        "#D2C8B2"
+      ],
+      "accent": "#1E1E22",
+      "text": "#1C1A18"
+    },
+    "background": "gradient",
+    "glow": 0.0,
+    "card": {
+      "style": "solid",
+      "radius": 10,
+      "glow": 0.0,
+      "chrome": "none"
+    },
+    "caption": {
+      "style": "none",
+      "opacity": 0,
+      "bg": "#F6F2E8",
+      "size": 1.1,
+      "position": "center"
+    },
+    "grade": {
+      "vignette": 0.1,
+      "tint": 0.0
+    },
+    "art_style": "warm paper texture, soft daylight, minimal still life, muted tones",
+    "fonts": {
+      "heading": "Inter",
+      "body": "Inter",
+      "numerals": "Inter"
+    }
+  },
+  "motion": {
+    "camera": [
+      "slow_zoom"
+    ],
+    "cursor": false,
+    "spotlight": false,
+    "transition": "dissolve",
+    "transition_sec": 0.6,
+    "pace": "calm"
+  },
+  "audio": {
+    "music": "cinematic-drone",
+    "bpm": 72,
+    "build": true,
+    "music_volume": 0.4,
+    "voiceover": false
+  },
+  "id": "editorial-minimal",
+  "name": "Editorial minimal",
+  "description": "Quiet, typographic, paper-and-ink. Large type, no glass, restrained motion."
+}

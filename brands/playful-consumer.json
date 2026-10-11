@@ -1,0 +1,82 @@
+{
+  "voice": {
+    "tone": [
+      "friendly",
+      "upbeat",
+      "plain-spoken"
+    ],
+    "person": "second person, conversational",
+    "banned": [
+      "synergy",
+      "leverage",
+      "revolutionary",
+      "disrupt"
+    ],
+    "style_rules": [
+      "Talk like a friend",
+      "Short and concrete",
+      "One joke at most, no emoji"
+    ],
+    "examples": [
+      "Saving money, but make it fun.",
+      "Tap once. Done."
+    ],
+    "max_caption_words": 7
+  },
+  "visual": {
+    "palette": {
+      "bg": [
+        "#42103C",
+        "#A03228"
+      ],
+      "bg2": [
+        "#280A2C",
+        "#DC6030"
+      ],
+      "accent": "#FFC878",
+      "text": "#FFF8F0"
+    },
+    "background": "gradient",
+    "glow": 0.45,
+    "card": {
+      "style": "glass",
+      "radius": 44,
+      "glow": 0.5,
+      "chrome": "none"
+    },
+    "caption": {
+      "style": "solid",
+      "opacity": 170,
+      "bg": "#280A2C",
+      "size": 1.05,
+      "position": "lower"
+    },
+    "art_style": "warm sunset gradient, soft shapes, friendly, playful, bokeh",
+    "fonts": {
+      "heading": "Inter",
+      "body": "Inter",
+      "numerals": "Inter"
+    }
+  },
+  "motion": {
+    "camera": [
+      "slow_zoom",
+      "ui_pan"
+    ],
+    "cursor": true,
+    "spotlight": false,
+    "transition": "slide",
+    "transition_sec": 0.35,
+    "pace": "snappy"
+  },
+  "audio": {
+    "music": "minimal-pulse",
+    "bpm": 108,
+    "build": true,
+    "music_volume": 0.55,
+    "voiceover": false
+  },
+  "id": "playful-consumer",
+  "name": "Playful consumer",
+  "description": "Warm, friendly, bright. Rounded cards, sunset palette, snappy pacing."
+}

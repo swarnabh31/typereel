@@ -1,0 +1,103 @@
+{
+  "identity": {
+    "cta": "See it in your stack"
+  },
+  "voice": {
+    "tone": [
+      "authoritative",
+      "calm",
+      "engineering-first"
+    ],
+    "person": "second person, present tense, declarative",
+    "banned": [
+      "revolutionary",
+      "game-changing",
+      "unlock",
+      "supercharge",
+      "seamless",
+      "magic",
+      "effortless",
+      "10x",
+      "next-level",
+      "!"
+    ],
+    "style_rules": [
+      "Lead with the measurable outcome",
+      "One claim per line",
+      "Prefer numbers and nouns to adjectives",
+      "No hype, no stock-footage energy",
+      "Sound like a Stripe keynote"
+    ],
+    "examples": [
+      "Screening to shortlist in minutes.",
+      "Every candidate. One permanent record.",
+      "Pipeline state, always current."
+    ],
+    "max_caption_words": 8,
+    "max_sub_words": 14
+  },
+  "visual": {
+    "palette": {
+      "bg": [
+        "#0A0C22",
+        "#1E1650"
+      ],
+      "bg2": [
+        "#04061A",
+        "#38186A"
+      ],
+      "accent": "#7C5CFF",
+      "text": "#F5F3FF"
+    },
+    "background": "grid",
+    "glow": 0.32,
+    "grid": {
+      "size": 64,
+      "opacity": 0.1
+    },
+    "card": {
+      "style": "glass",
+      "radius": 28,
+      "glow": 0.38,
+      "chrome": "auto"
+    },
+    "caption": {
+      "style": "glass",
+      "opacity": 120,
+      "bg": "#0B0D1E",
+      "size": 1.0,
+      "position": "lower"
+    },
+    "art_style": "abstract dark navy and indigo gradient, soft purple volumetric glow, subtle engineering grid, glassy depth, minimal, premium",
+    "fonts": {
+      "heading": "Inter",
+      "body": "Inter",
+      "numerals": "Inter"
+    }
+  },
+  "motion": {
+    "camera": [
+      "slow_zoom",
+      "ui_pan",
+      "parallax"
+    ],
+    "cursor": true,
+    "spotlight": true,
+    "transition": "dissolve",
+    "transition_sec": 0.5,
+    "pace": "calm"
+  },
+  "audio": {
+    "music": "lofi-ambient",
+    "bpm": 90,
+    "build": true,
+    "music_volume": 0.5,
+    "voiceover": true,
+    "voice": "neutral",
+    "voice_speed": 0.95,
+    "duck_db": -14
+  },
+  "id": "engineering-saas",
+  "name": "Engineering-first SaaS",
+  "description": "Calm, authoritative product film. Dark navy/indigo UI, purple glows, grid, glass cards, slow camera, lo-fi ambient 90 BPM."
+}

@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.typereel/
+output/
+.venv/
+venv/
+ffmpeg/
+models/
+voices/
+*.egg-info/
+*.log
+.pytest_cache/
+.DS_Store
+.idea/
+.vscode/
+
+# local demo renders (contain app-specific content; do not publish)
+promo/

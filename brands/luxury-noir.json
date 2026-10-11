@@ -1,0 +1,85 @@
+{
+  "voice": {
+    "tone": [
+      "refined",
+      "restrained",
+      "assured"
+    ],
+    "person": "third person or impersonal",
+    "banned": [
+      "cheap",
+      "deal",
+      "amazing",
+      "!"
+    ],
+    "style_rules": [
+      "Fewer words, longer pauses",
+      "Evoke, don't explain"
+    ],
+    "examples": [
+      "Made slowly.",
+      "Nothing added. Nothing missing."
+    ],
+    "max_caption_words": 6
+  },
+  "visual": {
+    "palette": {
+      "bg": [
+        "#0C0C0E",
+        "#26262C"
+      ],
+      "bg2": [
+        "#060608",
+        "#404048"
+      ],
+      "accent": "#FFFFFF",
+      "text": "#FAFAFA"
+    },
+    "background": "grid",
+    "glow": 0.15,
+    "grid": {
+      "size": 96,
+      "opacity": 0.06
+    },
+    "card": {
+      "style": "glass",
+      "radius": 12,
+      "glow": 0.12,
+      "chrome": "none"
+    },
+    "caption": {
+      "style": "none",
+      "opacity": 0,
+      "bg": "#0C0C0E",
+      "size": 1.0,
+      "position": "center"
+    },
+    "art_style": "black marble, single soft highlight, luxury, ultra minimal",
+    "fonts": {
+      "heading": "Inter",
+      "body": "Inter",
+      "numerals": "Inter"
+    }
+  },
+  "motion": {
+    "camera": [
+      "slow_zoom",
+      "parallax"
+    ],
+    "cursor": false,
+    "spotlight": false,
+    "transition": "dissolve",
+    "transition_sec": 0.8,
+    "pace": "calm"
+  },
+  "audio": {
+    "music": "cinematic-drone",
+    "bpm": 66,
+    "build": true,
+    "music_volume": 0.45,
+    "voiceover": false
+  },
+  "id": "luxury-noir",
+  "name": "Luxury noir",
+  "description": "Black, restrained, slow. Hairline glass, white accent, cinematic drone."
+}

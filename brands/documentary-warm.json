@@ -1,0 +1,84 @@
+{
+  "voice": {
+    "tone": [
+      "warm",
+      "observational",
+      "human"
+    ],
+    "person": "present tense, close third person",
+    "banned": [
+      "epic",
+      "stunning",
+      "!"
+    ],
+    "style_rules": [
+      "Show a specific moment",
+      "Use the same words for the same person every time"
+    ],
+    "examples": [
+      "She climbs before the light does.",
+      "Snow keeps the secrets."
+    ],
+    "max_caption_words": 9
+  },
+  "visual": {
+    "palette": {
+      "bg": [
+        "#28080A",
+        "#6E1A10"
+      ],
+      "bg2": [
+        "#180408",
+        "#A03614"
+      ],
+      "accent": "#FF9240",
+      "text": "#FFF4EC"
+    },
+    "background": "gradient",
+    "glow": 0.25,
+    "card": {
+      "style": "solid",
+      "radius": 18,
+      "glow": 0.2,
+      "chrome": "none"
+    },
+    "caption": {
+      "style": "glass",
+      "opacity": 110,
+      "bg": "#180408",
+      "size": 1.0,
+      "position": "lower"
+    },
+    "grade": {
+      "vignette": 0.6,
+      "tint": 0.14
+    },
+    "art_style": "warm golden hour, film grain, natural light, documentary",
+    "fonts": {
+      "heading": "Inter",
+      "body": "Inter",
+      "numerals": "Inter"
+    }
+  },
+  "motion": {
+    "camera": [
+      "slow_zoom",
+      "parallax"
+    ],
+    "cursor": false,
+    "spotlight": false,
+    "transition": "dissolve",
+    "transition_sec": 0.7,
+    "pace": "calm"
+  },
+  "audio": {
+    "music": "cinematic-drone",
+    "bpm": 72,
+    "build": true,
+    "music_volume": 0.5,
+    "voiceover": false
+  },
+  "id": "documentary-warm",
+  "name": "Documentary warm",
+  "description": "Natural, human, story-first. Warm ember palette, photo-forward, gentle Ken-Burns."
+}
